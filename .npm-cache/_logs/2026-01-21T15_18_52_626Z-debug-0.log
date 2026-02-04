@@ -1,0 +1,22 @@
+0 verbose cli C:\nvm4w\nodejs\node.exe G:\nvm\v22.14.0\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:G:\nvm\v22.14.0\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\C\.npmrc
+5 silly config load:file:G:\node.js\node_global\etc\npmrc
+6 verbose title npm exec apifox-mcp-server@latest --site-id=5479924
+7 verbose argv "exec" "--yes" "--" "apifox-mcp-server@latest" "--site-id=5479924"
+8 verbose logfile logs-max:10 dir:F:\SillyTavern\.npm-cache\_logs\2026-01-21T15_18_52_626Z-
+9 verbose logfile F:\SillyTavern\.npm-cache\_logs\2026-01-21T15_18_52_626Z-debug-0.log
+10 silly logfile start cleaning logs, removing 3 files
+11 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+12 silly logfile done cleaning log files
+13 http fetch GET 200 https://registry.npmmirror.com/apifox-mcp-server 178ms (cache revalidated)
+14 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+15 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+16 verbose cwd C:\Users\C
+17 verbose os Windows_NT 10.0.19045
+18 verbose node v22.14.0
+19 verbose npm  v10.9.2
+20 verbose exit 0
+21 info ok

@@ -1,0 +1,75 @@
+0 verbose cli C:\nvm4w\nodejs\node.exe G:\nvm\v22.14.0\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:G:\nvm\v22.14.0\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\C\.npmrc
+5 silly config load:file:G:\node.js\node_global\etc\npmrc
+6 verbose title npm exec apifox-mcp-server@latest --site-id=5479924
+7 verbose argv "exec" "--yes" "--" "apifox-mcp-server@latest" "--site-id=5479924"
+8 verbose logfile logs-max:10 dir:F:\SillyTavern\.npm-cache\_logs\2026-01-21T15_18_05_095Z-
+9 verbose logfile F:\SillyTavern\.npm-cache\_logs\2026-01-21T15_18_05_095Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 http fetch GET 200 https://registry.npmmirror.com/apifox-mcp-server 231ms (cache updated)
+14 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+15 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+16 silly idealTree buildDeps
+17 silly fetch manifest apifox-mcp-server@0.0.17
+18 silly packumentCache full:https://registry.npmmirror.com/apifox-mcp-server cache-miss
+19 http fetch GET 200 https://registry.npmmirror.com/apifox-mcp-server 111ms (cache updated)
+20 silly packumentCache full:https://registry.npmmirror.com/apifox-mcp-server set size:9714 disposed:false
+21 silly placeDep ROOT apifox-mcp-server@0.0.17 REPLACE for:  want: 0.0.17
+22 silly reify mark retired [
+22 silly reify   'F:\\SillyTavern\\.npm-cache\\_npx\\cd91540867942c9c\\node_modules\\apifox-mcp-server',
+22 silly reify   'F:\\SillyTavern\\.npm-cache\\_npx\\cd91540867942c9c\\node_modules\\.bin\\apifox-mcp-server',
+22 silly reify   'F:\\SillyTavern\\.npm-cache\\_npx\\cd91540867942c9c\\node_modules\\.bin\\apifox-mcp-server.cmd',
+22 silly reify   'F:\\SillyTavern\\.npm-cache\\_npx\\cd91540867942c9c\\node_modules\\.bin\\apifox-mcp-server.ps1'
+22 silly reify ]
+23 silly reify moves {
+23 silly reify   'F:\\SillyTavern\\.npm-cache\\_npx\\cd91540867942c9c\\node_modules\\apifox-mcp-server': 'F:\\SillyTavern\\.npm-cache\\_npx\\cd91540867942c9c\\node_modules\\.apifox-mcp-server-Z3v55WK6',
+23 silly reify   'F:\\SillyTavern\\.npm-cache\\_npx\\cd91540867942c9c\\node_modules\\.bin\\apifox-mcp-server': 'F:\\SillyTavern\\.npm-cache\\_npx\\cd91540867942c9c\\node_modules\\.bin\\.apifox-mcp-server-0XDlo3qN',
+23 silly reify   'F:\\SillyTavern\\.npm-cache\\_npx\\cd91540867942c9c\\node_modules\\.bin\\apifox-mcp-server.cmd': 'F:\\SillyTavern\\.npm-cache\\_npx\\cd91540867942c9c\\node_modules\\.bin\\.apifox-mcp-server.cmd-7G99O2sJ',
+23 silly reify   'F:\\SillyTavern\\.npm-cache\\_npx\\cd91540867942c9c\\node_modules\\.bin\\apifox-mcp-server.ps1': 'F:\\SillyTavern\\.npm-cache\\_npx\\cd91540867942c9c\\node_modules\\.bin\\.apifox-mcp-server.ps1-YbaJkDD7'
+23 silly reify }
+24 silly audit bulk request { 'apifox-mcp-server': [ '0.0.17' ] }
+25 http cache apifox-mcp-server@https://registry.npmmirror.com/apifox-mcp-server/-/apifox-mcp-server-0.0.17.tgz 0ms (cache hit)
+26 silly tarball no local data for apifox-mcp-server@https://registry.npmmirror.com/apifox-mcp-server/-/apifox-mcp-server-0.0.17.tgz. Extracting by manifest.
+27 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk 48ms
+28 silly audit bulk request failed [object Object]
+29 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/audits/quick 42ms
+30 verbose audit error HttpErrorGeneral: 404 Not Found - POST https://registry.npmmirror.com/-/npm/v1/security/audits/quick - [NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet
+30 verbose audit error     at G:\nvm\v22.14.0\node_modules\npm\node_modules\npm-registry-fetch\lib\check-response.js:103:15
+30 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+30 verbose audit error     at async [getReport] (G:\nvm\v22.14.0\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:336:21)
+30 verbose audit error     at async AuditReport.run (G:\nvm\v22.14.0\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:106:19) {
+30 verbose audit error   headers: [Object: null prototype] {
+30 verbose audit error     server: [ 'Tengine' ],
+30 verbose audit error     date: [ 'Wed, 21 Jan 2026 15:18:06 GMT' ],
+30 verbose audit error     'content-type': [ 'application/json' ],
+30 verbose audit error     'transfer-encoding': [ 'chunked' ],
+30 verbose audit error     connection: [ 'keep-alive' ],
+30 verbose audit error     'strict-transport-security': [ 'max-age=5184000' ],
+30 verbose audit error     via: [ 'kunlun8.cn5220[,404666]' ],
+30 verbose audit error     'timing-allow-origin': [ '*' ],
+30 verbose audit error     eagleid: [ '77bcac9c17690086869436647e' ],
+30 verbose audit error     'x-fetch-attempts': [ '1' ]
+30 verbose audit error   },
+30 verbose audit error   statusCode: 404,
+30 verbose audit error   code: 'E404',
+30 verbose audit error   method: 'POST',
+30 verbose audit error   uri: 'https://registry.npmmirror.com/-/npm/v1/security/audits/quick',
+30 verbose audit error   body: {
+30 verbose audit error     error: '[NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet'
+30 verbose audit error   },
+30 verbose audit error   pkgid: undefined
+30 verbose audit error }
+31 silly audit error [object Object]
+32 silly audit report null
+33 http fetch GET 200 https://cdn.npmmirror.com/packages/apifox-mcp-server/0.0.17/apifox-mcp-server-0.0.17.tgz 4744ms (cache miss)
+34 verbose cwd C:\Users\C
+35 verbose os Windows_NT 10.0.19045
+36 verbose node v22.14.0
+37 verbose npm  v10.9.2
+38 verbose exit 1
+39 verbose code 1

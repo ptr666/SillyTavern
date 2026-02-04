@@ -1,0 +1,311 @@
+0 verbose cli C:\nvm4w\nodejs\node.exe G:\nvm\v22.14.0\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:G:\nvm\v22.14.0\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\C\.npmrc
+5 silly config load:file:G:\node.js\node_global\etc\npmrc
+6 verbose title npm exec @testsprite/testsprite-mcp@latest
+7 verbose argv "exec" "--" "@testsprite/testsprite-mcp@latest"
+8 verbose logfile logs-max:10 dir:F:\SillyTavern\.npm-cache\_logs\2026-01-21T15_18_05_464Z-
+9 verbose logfile F:\SillyTavern\.npm-cache\_logs\2026-01-21T15_18_05_464Z-debug-0.log
+10 silly logfile start cleaning logs, removing 3 files
+11 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+12 silly logfile done cleaning log files
+13 http fetch GET 200 https://registry.npmmirror.com/@testsprite%2ftestsprite-mcp 293ms (cache updated)
+14 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+15 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+16 warn exec The following package was not found and will be installed: @testsprite/testsprite-mcp@0.0.19
+17 silly idealTree buildDeps
+18 silly fetch manifest @testsprite/testsprite-mcp@0.0.19
+19 silly packumentCache full:https://registry.npmmirror.com/@testsprite%2ftestsprite-mcp cache-miss
+20 http fetch GET 200 https://registry.npmmirror.com/@testsprite%2ftestsprite-mcp 103ms (cache updated)
+21 silly packumentCache full:https://registry.npmmirror.com/@testsprite%2ftestsprite-mcp set size:7632 disposed:false
+22 silly placeDep ROOT @testsprite/testsprite-mcp@0.0.19 REPLACE for:  want: 0.0.19
+23 silly fetch manifest @datadog/browser-rum@^6.25.0
+24 silly packumentCache full:https://registry.npmmirror.com/@datadog%2fbrowser-rum cache-miss
+25 silly fetch manifest @datadog/browser-rum-react@^6.25.0
+26 silly packumentCache full:https://registry.npmmirror.com/@datadog%2fbrowser-rum-react cache-miss
+27 silly fetch manifest zod-to-json-schema@^3.25.0
+28 silly packumentCache full:https://registry.npmmirror.com/zod-to-json-schema cache-miss
+29 http fetch GET 200 https://registry.npmmirror.com/zod-to-json-schema 181ms (cache revalidated)
+30 silly packumentCache full:https://registry.npmmirror.com/zod-to-json-schema set size:301890 disposed:false
+31 http fetch GET 200 https://registry.npmmirror.com/@datadog%2fbrowser-rum-react 214ms (cache miss)
+32 silly packumentCache full:https://registry.npmmirror.com/@datadog%2fbrowser-rum-react set size:21244 disposed:false
+33 http fetch GET 200 https://registry.npmmirror.com/@datadog%2fbrowser-rum 244ms (cache miss)
+34 silly packumentCache full:https://registry.npmmirror.com/@datadog%2fbrowser-rum set size:146728 disposed:false
+35 silly fetch manifest @datadog/browser-logs@6.25.4
+36 silly packumentCache full:https://registry.npmmirror.com/@datadog%2fbrowser-logs cache-miss
+37 http fetch GET 200 https://registry.npmmirror.com/@datadog%2fbrowser-logs 276ms (cache miss)
+38 silly packumentCache full:https://registry.npmmirror.com/@datadog%2fbrowser-logs set size:143746 disposed:false
+39 silly fetch manifest react@18 || 19
+40 silly packumentCache full:https://registry.npmmirror.com/react cache-miss
+41 http fetch GET 200 https://registry.npmmirror.com/react 332ms (cache updated)
+42 silly packumentCache full:https://registry.npmmirror.com/react set size:1168133 disposed:false
+43 silly fetch manifest react-router@6 || 7
+44 silly packumentCache full:https://registry.npmmirror.com/react-router cache-miss
+45 http fetch GET 200 https://registry.npmmirror.com/react-router 272ms (cache miss)
+46 silly packumentCache full:https://registry.npmmirror.com/react-router set size:532786 disposed:false
+47 silly fetch manifest react-dom@>=18
+48 silly packumentCache full:https://registry.npmmirror.com/react-dom cache-miss
+49 http fetch GET 200 https://registry.npmmirror.com/react-dom 566ms (cache miss)
+50 silly packumentCache full:https://registry.npmmirror.com/react-dom set size:1322077 disposed:false
+51 silly fetch manifest react-router-dom@6 || 7
+52 silly packumentCache full:https://registry.npmmirror.com/react-router-dom cache-miss
+53 http fetch GET 200 https://registry.npmmirror.com/react-router-dom 3797ms (cache miss)
+54 silly packumentCache full:https://registry.npmmirror.com/react-router-dom set size:451820 disposed:false
+55 silly fetch manifest zod@^3.25.30
+56 silly packumentCache full:https://registry.npmmirror.com/zod cache-miss
+57 http fetch GET 200 https://registry.npmmirror.com/zod 206ms (cache updated)
+58 silly packumentCache full:https://registry.npmmirror.com/zod set size:421289 disposed:false
+59 silly placeDep ROOT @datadog/browser-rum@6.25.4 OK for: @testsprite/testsprite-mcp@0.0.19 want: ^6.25.0
+60 silly placeDep ROOT @datadog/browser-rum-react@6.25.4 OK for: @testsprite/testsprite-mcp@0.0.19 want: ^6.25.0
+61 silly placeDep ROOT zod-to-json-schema@3.25.1 REPLACE for: @testsprite/testsprite-mcp@0.0.19 want: ^3.25.0
+62 silly fetch manifest @datadog/browser-core@6.25.4
+63 silly packumentCache full:https://registry.npmmirror.com/@datadog%2fbrowser-core cache-miss
+64 silly fetch manifest @datadog/browser-rum-core@6.25.4
+65 silly packumentCache full:https://registry.npmmirror.com/@datadog%2fbrowser-rum-core cache-miss
+66 silly fetch manifest @datadog/browser-core@6.25.4
+67 silly packumentCache full:https://registry.npmmirror.com/@datadog%2fbrowser-core cache-miss
+68 silly fetch manifest @datadog/browser-rum-core@6.25.4
+69 silly packumentCache full:https://registry.npmmirror.com/@datadog%2fbrowser-rum-core cache-miss
+70 http fetch GET 200 https://registry.npmmirror.com/@datadog%2fbrowser-rum-core 167ms (cache miss)
+71 silly packumentCache full:https://registry.npmmirror.com/@datadog%2fbrowser-rum-core set size:120491 disposed:false
+72 http fetch GET 200 https://registry.npmmirror.com/@datadog%2fbrowser-rum-core 270ms (cache miss)
+73 silly packumentCache full:https://registry.npmmirror.com/@datadog%2fbrowser-rum-core set size:120491 disposed:false
+74 silly packumentCache full:https://registry.npmmirror.com/@datadog%2fbrowser-rum-core dispose
+75 http fetch GET 200 https://registry.npmmirror.com/@datadog%2fbrowser-core 285ms (cache miss)
+76 silly packumentCache full:https://registry.npmmirror.com/@datadog%2fbrowser-core set size:139371 disposed:false
+77 http fetch GET 200 https://registry.npmmirror.com/@datadog%2fbrowser-core 288ms (cache miss)
+78 silly packumentCache full:https://registry.npmmirror.com/@datadog%2fbrowser-core set size:139371 disposed:false
+79 silly packumentCache full:https://registry.npmmirror.com/@datadog%2fbrowser-core dispose
+80 silly placeDep ROOT @datadog/browser-core@6.25.4 OK for: @datadog/browser-rum@6.25.4 want: 6.25.4
+81 silly placeDep ROOT @datadog/browser-rum-core@6.25.4 OK for: @datadog/browser-rum@6.25.4 want: 6.25.4
+82 silly reify mark retired [
+82 silly reify   'F:\\SillyTavern\\.npm-cache\\_npx\\8ddf6bea01b2519d\\node_modules\\@testsprite\\testsprite-mcp',
+82 silly reify   'F:\\SillyTavern\\.npm-cache\\_npx\\8ddf6bea01b2519d\\node_modules\\.bin\\testsprite-mcp-plugin',
+82 silly reify   'F:\\SillyTavern\\.npm-cache\\_npx\\8ddf6bea01b2519d\\node_modules\\.bin\\testsprite-mcp-plugin.cmd',
+82 silly reify   'F:\\SillyTavern\\.npm-cache\\_npx\\8ddf6bea01b2519d\\node_modules\\.bin\\testsprite-mcp-plugin.ps1'
+82 silly reify ]
+83 silly reify mark retired [
+83 silly reify   'F:\\SillyTavern\\.npm-cache\\_npx\\8ddf6bea01b2519d\\node_modules\\zod-to-json-schema'
+83 silly reify ]
+84 silly reify moves {
+84 silly reify   'F:\\SillyTavern\\.npm-cache\\_npx\\8ddf6bea01b2519d\\node_modules\\@testsprite\\testsprite-mcp': 'F:\\SillyTavern\\.npm-cache\\_npx\\8ddf6bea01b2519d\\node_modules\\@testsprite\\.testsprite-mcp-zHVcAudm',
+84 silly reify   'F:\\SillyTavern\\.npm-cache\\_npx\\8ddf6bea01b2519d\\node_modules\\.bin\\testsprite-mcp-plugin': 'F:\\SillyTavern\\.npm-cache\\_npx\\8ddf6bea01b2519d\\node_modules\\.bin\\.testsprite-mcp-plugin-uPy6ftFT',
+84 silly reify   'F:\\SillyTavern\\.npm-cache\\_npx\\8ddf6bea01b2519d\\node_modules\\.bin\\testsprite-mcp-plugin.cmd': 'F:\\SillyTavern\\.npm-cache\\_npx\\8ddf6bea01b2519d\\node_modules\\.bin\\.testsprite-mcp-plugin.cmd-9PB8XvUT',
+84 silly reify   'F:\\SillyTavern\\.npm-cache\\_npx\\8ddf6bea01b2519d\\node_modules\\.bin\\testsprite-mcp-plugin.ps1': 'F:\\SillyTavern\\.npm-cache\\_npx\\8ddf6bea01b2519d\\node_modules\\.bin\\.testsprite-mcp-plugin.ps1-a1h076uJ',
+84 silly reify   'F:\\SillyTavern\\.npm-cache\\_npx\\8ddf6bea01b2519d\\node_modules\\zod-to-json-schema': 'F:\\SillyTavern\\.npm-cache\\_npx\\8ddf6bea01b2519d\\node_modules\\.zod-to-json-schema-uXRWlvq4'
+84 silly reify }
+85 silly audit bulk request {
+85 silly audit   '@kwsites/file-exists': [ '1.1.1' ],
+85 silly audit   '@kwsites/promise-deferred': [ '1.1.1' ],
+85 silly audit   '@modelcontextprotocol/sdk': [ '1.22.0' ],
+85 silly audit   accepts: [ '2.0.0' ],
+85 silly audit   ajv: [ '8.17.1' ],
+85 silly audit   'ajv-formats': [ '3.0.1' ],
+85 silly audit   'ansi-regex': [ '5.0.1' ],
+85 silly audit   'append-field': [ '1.0.0' ],
+85 silly audit   argparse: [ '2.0.1' ],
+85 silly audit   asynckit: [ '0.4.0' ],
+85 silly audit   atomically: [ '2.1.0' ],
+85 silly audit   axios: [ '1.13.2' ],
+85 silly audit   'body-parser': [ '2.2.0' ],
+85 silly audit   'buffer-from': [ '1.1.2' ],
+85 silly audit   busboy: [ '1.6.0' ],
+85 silly audit   bytes: [ '3.1.2' ],
+85 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+85 silly audit   'call-bound': [ '1.0.4' ],
+85 silly audit   'cli-progress': [ '3.12.0' ],
+85 silly audit   'combined-stream': [ '1.0.8' ],
+85 silly audit   commander: [ '14.0.2' ],
+85 silly audit   'concat-stream': [ '2.0.0' ],
+85 silly audit   conf: [ '13.1.0' ],
+85 silly audit   'content-disposition': [ '1.0.0' ],
+85 silly audit   'content-type': [ '1.0.5' ],
+85 silly audit   cookie: [ '0.7.2' ],
+85 silly audit   'cookie-signature': [ '1.2.2' ],
+85 silly audit   cors: [ '2.8.5' ],
+85 silly audit   'cross-spawn': [ '7.0.6' ],
+85 silly audit   'debounce-fn': [ '6.0.0' ],
+85 silly audit   debug: [ '4.4.3' ],
+85 silly audit   'delayed-stream': [ '1.0.0' ],
+85 silly audit   depd: [ '2.0.0' ],
+85 silly audit   'dot-prop': [ '9.0.0' ],
+85 silly audit   'dunder-proto': [ '1.0.1' ],
+85 silly audit   'ee-first': [ '1.1.1' ],
+85 silly audit   'emoji-regex': [ '8.0.0' ],
+85 silly audit   encodeurl: [ '2.0.0' ],
+85 silly audit   entities: [ '4.5.0' ],
+85 silly audit   'env-paths': [ '3.0.0' ],
+85 silly audit   'es-define-property': [ '1.0.1' ],
+85 silly audit   'es-errors': [ '1.3.0' ],
+85 silly audit   'es-object-atoms': [ '1.1.1' ],
+85 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+85 silly audit   'escape-html': [ '1.0.3' ],
+85 silly audit   etag: [ '1.8.1' ],
+85 silly audit   eventemitter3: [ '4.0.7' ],
+85 silly audit   eventsource: [ '3.0.7' ],
+85 silly audit   'eventsource-parser': [ '3.0.6' ],
+85 silly audit   express: [ '5.1.0' ],
+85 silly audit   'express-rate-limit': [ '7.5.1' ],
+85 silly audit   'fast-deep-equal': [ '3.1.3' ],
+85 silly audit   'fast-uri': [ '3.1.0' ],
+85 silly audit   finalhandler: [ '2.1.0' ],
+85 silly audit   'follow-redirects': [ '1.15.11' ],
+85 silly audit   'form-data': [ '4.0.5' ],
+85 silly audit   'mime-db': [ '1.52.0', '1.54.0' ],
+85 silly audit   'mime-types': [ '2.1.35', '3.0.1' ],
+85 silly audit   forwarded: [ '0.2.0' ],
+85 silly audit   fresh: [ '2.0.0' ],
+85 silly audit   'fs-extra': [ '11.3.2' ],
+85 silly audit   'function-bind': [ '1.1.2' ],
+85 silly audit   'get-intrinsic': [ '1.3.0' ],
+85 silly audit   'get-proto': [ '1.0.1' ],
+85 silly audit   gopd: [ '1.2.0' ],
+85 silly audit   'graceful-fs': [ '4.2.11' ],
+85 silly audit   'has-symbols': [ '1.1.0' ],
+85 silly audit   'has-tostringtag': [ '1.0.2' ],
+85 silly audit   hasown: [ '2.0.2' ],
+85 silly audit   'http-errors': [ '2.0.0' ],
+85 silly audit   statuses: [ '2.0.1', '2.0.2' ],
+85 silly audit   'http-proxy': [ '1.18.1' ],
+85 silly audit   'iconv-lite': [ '0.6.3', '0.7.0' ],
+85 silly audit   inherits: [ '2.0.4' ],
+85 silly audit   'ip-address': [ '10.1.0' ],
+85 silly audit   'ipaddr.js': [ '1.9.1' ],
+85 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+85 silly audit   'is-promise': [ '4.0.0' ],
+85 silly audit   isexe: [ '2.0.0' ],
+85 silly audit   jschardet: [ '3.1.4' ],
+85 silly audit   'json-schema-traverse': [ '1.0.0' ],
+85 silly audit   'json-schema-typed': [ '8.0.2' ],
+85 silly audit   jsonfile: [ '6.2.0' ],
+85 silly audit   'linkify-it': [ '5.0.0' ],
+85 silly audit   'markdown-it': [ '14.1.0' ],
+85 silly audit   'math-intrinsics': [ '1.1.0' ],
+85 silly audit   mdurl: [ '2.0.0' ],
+85 silly audit   'media-typer': [ '1.1.0', '0.3.0' ],
+85 silly audit   'merge-descriptors': [ '2.0.0' ],
+85 silly audit   'mimic-function': [ '5.0.1' ],
+85 silly audit   minimist: [ '1.2.8' ],
+85 silly audit   mkdirp: [ '0.5.6' ],
+85 silly audit   ms: [ '2.1.3' ],
+85 silly audit   multer: [ '2.0.2' ],
+85 silly audit   'type-is': [ '1.6.18', '2.0.1' ],
+85 silly audit   negotiator: [ '1.0.0' ],
+85 silly audit   'object-assign': [ '4.1.1' ],
+85 silly audit   'object-inspect': [ '1.13.4' ],
+85 silly audit   'on-finished': [ '2.4.1' ],
+85 silly audit   once: [ '1.4.0' ],
+85 silly audit   parseurl: [ '1.3.3' ],
+85 silly audit   'path-key': [ '3.1.1' ],
+85 silly audit   'path-to-regexp': [ '8.3.0' ],
+85 silly audit   'pkce-challenge': [ '5.0.0' ],
+85 silly audit   'proper-lockfile': [ '4.1.2' ],
+85 silly audit   'proxy-addr': [ '2.0.7' ],
+85 silly audit   'proxy-from-env': [ '1.1.0' ],
+85 silly audit   'punycode.js': [ '2.3.1' ],
+85 silly audit   qs: [ '6.14.0' ],
+85 silly audit   'range-parser': [ '1.2.1' ],
+85 silly audit   'raw-body': [ '3.0.1' ],
+85 silly audit   'readable-stream': [ '3.6.2' ],
+85 silly audit   'require-from-string': [ '2.0.2' ],
+85 silly audit   'requires-port': [ '1.0.0' ],
+85 silly audit   retry: [ '0.12.0' ],
+85 silly audit   router: [ '2.2.0' ],
+85 silly audit   'safe-buffer': [ '5.2.1' ],
+85 silly audit   'safer-buffer': [ '2.1.2' ],
+85 silly audit   semver: [ '7.7.3' ],
+85 silly audit   send: [ '1.2.0' ],
+85 silly audit   'serve-static': [ '2.2.0' ],
+85 silly audit   setprototypeof: [ '1.2.0' ],
+85 silly audit   'shebang-command': [ '2.0.0' ],
+85 silly audit   'shebang-regex': [ '3.0.0' ],
+85 silly audit   'side-channel': [ '1.1.0' ],
+85 silly audit   'side-channel-list': [ '1.0.0' ],
+85 silly audit   'side-channel-map': [ '1.0.1' ],
+85 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+85 silly audit   'signal-exit': [ '3.0.7' ],
+85 silly audit   'simple-git': [ '3.30.0' ],
+85 silly audit   'smart-buffer': [ '4.2.0' ],
+85 silly audit   socks: [ '2.8.7' ],
+85 silly audit   streamsearch: [ '1.1.0' ],
+85 silly audit   string_decoder: [ '1.3.0' ],
+85 silly audit   'string-width': [ '4.2.3' ],
+85 silly audit   'strip-ansi': [ '6.0.1' ],
+85 silly audit   'stubborn-fs': [ '2.0.0' ],
+85 silly audit   'stubborn-utils': [ '1.0.2' ],
+85 silly audit   toidentifier: [ '1.0.1' ],
+85 silly audit   'type-fest': [ '4.41.0' ],
+85 silly audit   typedarray: [ '0.0.6' ],
+85 silly audit   'uc.micro': [ '2.1.0' ],
+85 silly audit   'uint8array-extras': [ '1.5.0' ],
+85 silly audit   universalify: [ '2.0.1' ],
+85 silly audit   unpipe: [ '1.0.0' ],
+85 silly audit   'util-deprecate': [ '1.0.2' ],
+85 silly audit   vary: [ '1.1.2' ],
+85 silly audit   'when-exit': [ '2.1.5' ],
+85 silly audit   which: [ '2.0.2' ],
+85 silly audit   wrappy: [ '1.0.2' ],
+85 silly audit   xtend: [ '4.0.2' ],
+85 silly audit   zod: [ '3.25.76' ],
+85 silly audit   '@testsprite/testsprite-mcp': [ '0.0.19' ],
+85 silly audit   '@datadog/browser-rum': [ '6.25.4' ],
+85 silly audit   '@datadog/browser-rum-react': [ '6.25.4' ],
+85 silly audit   'zod-to-json-schema': [ '3.25.1' ],
+85 silly audit   '@datadog/browser-core': [ '6.25.4' ],
+85 silly audit   '@datadog/browser-rum-core': [ '6.25.4' ]
+85 silly audit }
+86 http cache @datadog/browser-core@https://registry.npmmirror.com/@datadog/browser-core/-/browser-core-6.25.4.tgz 0ms (cache hit)
+87 http cache @datadog/browser-rum-core@https://registry.npmmirror.com/@datadog/browser-rum-core/-/browser-rum-core-6.25.4.tgz 0ms (cache hit)
+88 http cache @testsprite/testsprite-mcp@https://registry.npmmirror.com/@testsprite/testsprite-mcp/-/testsprite-mcp-0.0.19.tgz 0ms (cache hit)
+89 http cache @datadog/browser-rum-react@https://registry.npmmirror.com/@datadog/browser-rum-react/-/browser-rum-react-6.25.4.tgz 0ms (cache hit)
+90 http cache @datadog/browser-rum@https://registry.npmmirror.com/@datadog/browser-rum/-/browser-rum-6.25.4.tgz 0ms (cache hit)
+91 http cache zod-to-json-schema@https://registry.npmmirror.com/zod-to-json-schema/-/zod-to-json-schema-3.25.1.tgz 0ms (cache hit)
+92 silly tarball no local data for @testsprite/testsprite-mcp@https://registry.npmmirror.com/@testsprite/testsprite-mcp/-/testsprite-mcp-0.0.19.tgz. Extracting by manifest.
+93 silly tarball no local data for @datadog/browser-core@https://registry.npmmirror.com/@datadog/browser-core/-/browser-core-6.25.4.tgz. Extracting by manifest.
+94 silly tarball no local data for @datadog/browser-rum-core@https://registry.npmmirror.com/@datadog/browser-rum-core/-/browser-rum-core-6.25.4.tgz. Extracting by manifest.
+95 silly tarball no local data for @datadog/browser-rum@https://registry.npmmirror.com/@datadog/browser-rum/-/browser-rum-6.25.4.tgz. Extracting by manifest.
+96 silly tarball no local data for @datadog/browser-rum-react@https://registry.npmmirror.com/@datadog/browser-rum-react/-/browser-rum-react-6.25.4.tgz. Extracting by manifest.
+97 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk 61ms
+98 silly audit bulk request failed [object Object]
+99 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/audits/quick 45ms
+100 verbose audit error HttpErrorGeneral: 404 Not Found - POST https://registry.npmmirror.com/-/npm/v1/security/audits/quick - [NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet
+100 verbose audit error     at G:\nvm\v22.14.0\node_modules\npm\node_modules\npm-registry-fetch\lib\check-response.js:103:15
+100 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+100 verbose audit error     at async [getReport] (G:\nvm\v22.14.0\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:336:21)
+100 verbose audit error     at async AuditReport.run (G:\nvm\v22.14.0\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:106:19) {
+100 verbose audit error   headers: [Object: null prototype] {
+100 verbose audit error     server: [ 'Tengine' ],
+100 verbose audit error     date: [ 'Wed, 21 Jan 2026 15:18:13 GMT' ],
+100 verbose audit error     'content-type': [ 'application/json' ],
+100 verbose audit error     'transfer-encoding': [ 'chunked' ],
+100 verbose audit error     connection: [ 'keep-alive' ],
+100 verbose audit error     'strict-transport-security': [ 'max-age=5184000' ],
+100 verbose audit error     via: [ 'kunlun10.cn5220[,404666]' ],
+100 verbose audit error     'timing-allow-origin': [ '*' ],
+100 verbose audit error     eagleid: [ '77bcac9e17690086931292633e' ],
+100 verbose audit error     'x-fetch-attempts': [ '1' ]
+100 verbose audit error   },
+100 verbose audit error   statusCode: 404,
+100 verbose audit error   code: 'E404',
+100 verbose audit error   method: 'POST',
+100 verbose audit error   uri: 'https://registry.npmmirror.com/-/npm/v1/security/audits/quick',
+100 verbose audit error   body: {
+100 verbose audit error     error: '[NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet'
+100 verbose audit error   },
+100 verbose audit error   pkgid: undefined
+100 verbose audit error }
+101 silly audit error [object Object]
+102 silly audit report null
+103 http fetch GET 200 https://cdn.npmmirror.com/packages/%40datadog/browser-rum-react/6.25.4/browser-rum-react-6.25.4.tgz 498ms (cache miss)
+104 http fetch GET 200 https://cdn.npmmirror.com/packages/%40testsprite/testsprite-mcp/0.0.19/testsprite-mcp-0.0.19.tgz 766ms (cache miss)
+105 http fetch GET 200 https://cdn.npmmirror.com/packages/%40datadog/browser-rum/6.25.4/browser-rum-6.25.4.tgz 948ms (cache miss)
+106 http fetch GET 200 https://cdn.npmmirror.com/packages/%40datadog/browser-core/6.25.4/browser-core-6.25.4.tgz 1044ms (cache miss)
+107 http fetch GET 200 https://cdn.npmmirror.com/packages/%40datadog/browser-rum-core/6.25.4/browser-rum-core-6.25.4.tgz 2530ms (cache miss)
+108 verbose cwd C:\Users\C
+109 verbose os Windows_NT 10.0.19045
+110 verbose node v22.14.0
+111 verbose npm  v10.9.2
+112 verbose exit 1
+113 verbose code 1
